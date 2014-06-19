@@ -23,9 +23,9 @@ typedef unsigned char byte;
 
 
 // ads type
-#define LIST    "298cb25408234de02baf2085803a464a"
-#define ARRAY   "cb4fb1757fb37c43cded35d3eb857c43"
-#define MAP     "5af1a3a285c2bdee4192223e31e1f833"
+#define LIST    0x298cb25408234de02baf2085803a464a
+#define ARRAY   0xcb4fb1757fb37c43cded35d3eb857c43
+#define MAP     0x5af1a3a285c2bdee4192223e31e1f833
 
 // typedef enum
 // {
@@ -62,7 +62,7 @@ typedef unsigned char byte;
 
 
 
-#define CHECK_STRUCT_TYPE(a)             return (\
+#define CHECK_STRUCT_TYPE(a)    return (\
   CMPTYPE(a, OBJECT)  ? Object  : (\
   CMPTYPE(a, INT)     ? Int     : (\
   CMPTYPE(a, DOUBLE)  ? Double  : (\

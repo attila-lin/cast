@@ -155,7 +155,6 @@ Classes * newClasses()
   classes->path = newList();
   classes->classes = newMap();
   classes->staticFields = newMap();
-
 }
 
 

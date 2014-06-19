@@ -42,6 +42,7 @@ static void _add(void *_self, void * key, void * value)
 
 static void set(void *_self, void * key, void * value)
 {
+  printf("eh\n");
   Map * self = (Map *)_self;
   MapNode * tmp = self->head;
 
@@ -50,6 +51,8 @@ static void set(void *_self, void * key, void * value)
     _add(_self, key, value);
     return;
   }
+
+
 
   while(tmp->next != self->head->next)
   {

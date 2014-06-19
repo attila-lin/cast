@@ -8,8 +8,6 @@
 
 #include <stdio.h>
 
-
-
 void usage(void)
 {
   printf("usage:\n");
