@@ -12,7 +12,7 @@
 typedef unsigned char byte;
 
 // struct types
-#define OBJECT  "8eee8e217391199668cbac89472ace53"
+#define OBJECT  8eee8e217391199668cbac89472ace53dd
 
 // typedef enum
 // {
@@ -35,15 +35,15 @@ typedef unsigned char byte;
 // }ADSTYPE;
 
 // data types
-#define BOOLEAN "c48d5da12d702e73d6966069f2687376"
-#define CHAR    "027acd3aa6b1dd7f26119d3cf0f9a063"
-#define STRING  "63b588d5559f64f89a416e656880b949"
-#define FLOAT   "e738c26bf4ce1037fa81b039a915cbf6"
-#define DOUBLE  "fd3e4ece78a7d422280d5ed379482229"
-#define BYTE    "e409eb2ba6eb6801f52763ae370c350e"
-#define SHORT   "a35c2b02966b1563e5bf7b81b8b0cf77"
-#define INT     "53f93baa3057821107c750323892fa92"
-#define LONG    "c1fabfea54ec6011e694f211f3ffebf3"
+#define BOOLEAN c48d5da12d702e73d6966069f2687376
+#define CHAR    027acd3aa6b1dd7f26119d3cf0f9a063
+#define STRING  63b588d5559f64f89a416e656880b949
+#define FLOAT   e738c26bf4ce1037fa81b039a915cbf6
+#define DOUBLE  fd3e4ece78a7d422280d5ed379482229
+#define BYTE    e409eb2ba6eb6801f52763ae370c350e
+#define SHORT   a35c2b02966b1563e5bf7b81b8b0cf77
+#define INT     53f93baa3057821107c750323892fa92
+#define LONG    c1fabfea54ec6011e694f211f3ffebf3
 
 // typedef enum
 // {
