@@ -1,6 +1,8 @@
 #include <iostream>
+#include "jvm.h"
+
 
 int main() {
-	jvm::Jvm jvm();
-
+  cjvm::Jvm jvm;
+  return 0;
 }
